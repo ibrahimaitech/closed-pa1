@@ -49,7 +49,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
-global.video= "https://telegra.ph/file/204481823350f368c1826.mp4" ;
+global.video= "https://telegra.ph/file/db3a5c86c0e3dd11e0071.mp4" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="wabots@giftedtechnexus.co.ke"
@@ -78,7 +78,7 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 
 
 //========================= [ BOT SETTINGS ] =========================\\
-global.style = process.env.STYLE   || '5',  // put '1' to "5" here to check bot styles
+global.style = process.env.STYLE   || '1',  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "true"; // Make it "true" if bot not responed
 global.gdbye = process.env.GOODBYE || "false"; 
 global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
