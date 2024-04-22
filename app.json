@@ -1,7 +1,7 @@
 {
   "name": "blackpanther@v4",
   "description": "I am blackpanther-Md Whatsapp MultiDevice Whatsapp Bot built in NodeJs to make experience better\n\t if Any Problem Whatsapp Me on: +254710772666",
-  "logo": "https://telegra.ph/file/01bae0068863f48aff101.jpg",
+  "logo": "https://telegra.ph/file/2be2a434de6dd1fbd44b7.jpg",
   "keywords": ["whatsappbot", "giftedlMd", "gifted Md bot", "Gifted-Md", "GiftedMdWhatsaooBot", "GiftedWaBot","GiftedMD","Gifted Md Whatsapp Bot","multi device"],
   "success_url": "/",
   "app_url": "/qr/",
@@ -120,6 +120,11 @@
     "REMOVE_BG_KEY": {
       "description": "put your REMOVE BG KEY here.Get it from removeBg.com ",
       "value": "",
+      "required" :false
+   }, 
+    "LEVEL_UP": {
+      "description": "LEVEL UP YOUR FRIENDS IN GROUPS ",
+      "value": "off",
       "required" :false
     },
     "MODE": {
