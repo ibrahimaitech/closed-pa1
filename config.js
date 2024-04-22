@@ -103,7 +103,7 @@ global.save_status_from =  process.env.SAVE_STATUS_FROM  || "254xxxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254710772666,254739937062";
 
 global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel.app" // expires
-global.scan = "https://ibrahim-tech-app-11dd0aa09b64.herokuapp.com/";
+global.wachannel = "https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y";
 
 
 global.SESSION_ID = process.env.SESSION_ID ||  "" ; // PUT your SESSION_ID 
