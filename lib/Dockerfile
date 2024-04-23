@@ -27,9 +27,9 @@
 
  
 
-FROM quay.io/mouricedevs/gifted-md
-RUN git clone https://github.com/mouricedevs/Gifted-Md /root/Gifted
-WORKDIR /root/Gifted/
+FROM quay.io/ibrahimaitech/BLACK-PANTHER-MD
+RUN git clone https://github.com/ibrahimaitech/BLACK-PANTHER-MD /root/ibrahimaitech
+WORKDIR /root/ibrahimaitech/
 RUN npm install
 EXPOSE 8000
 CMD ["npm","start" ] 
