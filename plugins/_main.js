@@ -488,7 +488,7 @@ smd({
   try {
     let {
       data: _0x44f98c
-    } = await axios.get("https://api.github.com/repos/ibrahimaitech/BLACK-PANTHER-MD");
+    } = await axios.get("https://api.github.com/repos/ibrahimaitech/IBRAHIM-MD");
     let _0x1c73f9 = ("\n𝑩𝒍𝒂𝒄𝒌 𝑷𝒂𝒏𝒕𝒉𝒆𝒓 𝑴𝑫 𝑻𝒉𝒆 𝑩𝒆𝒔𝒕 𝑩𝒐𝒕 , 𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝑩𝒚 𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑨𝒅𝒂𝒎𝒔ʙʏ  𝑫𝒆𝒑𝒍𝒐𝒚𝒆𝒅 𝒃𝒚 *" + Config.ownername + "*.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ Authors:* IbrahimAdams\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/ibrahimaitech/IBRAHIM-MD_\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
     return await _0x45da98.sendUi(_0x45da98.jid, {
       caption: _0x1c73f9
