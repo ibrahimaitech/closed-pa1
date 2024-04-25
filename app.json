@@ -114,22 +114,22 @@
     }, 
     "ELEVENLAB_API_KEY": {
       "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from https://youtu.be/HCDcdPtkwg4 ",
-      "value": "",
+      "value": "345f70f1c3f2ecef4d718d33c14026f9",
       "required" :false
     }, 
     "REMOVE_BG_KEY": {
       "description": "put your REMOVE BG KEY here.Get it from removeBg.com ",
-      "value": "",
+      "value": "neLbXXrp8bSDcohnp1CW5UEa",
       "required" :false
    }, 
     "LEVEL_UP": {
       "description": "LEVEL UP YOUR FRIENDS IN GROUPS ",
-      "value": "off",
+      "value": "false",
       "required" :false
     },
     "MODE": {
       "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-      "value": "public"
+      "value": "private"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
