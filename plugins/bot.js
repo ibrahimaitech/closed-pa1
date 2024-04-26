@@ -117,7 +117,7 @@ try {
   });
 } catch (_0x2568c0) {
   if (!global.showUpdate) {
-    log("\n🔰===========================🔰 \n  \n  NEW UPDATE AVAILABLE\n  =>  Update Your Bot As Soon As Possible! ⏳\n \n Regards: IBRAHIMADAMS\n🔰============================🔰");
+    log("\n🔰===========================🔰 \n  \n  𝑩𝑶𝑻 𝑶𝑵𝑳𝑰𝑵𝑬\n  =>  BOT IS SUCCESSFULLY ACTIVATED ON YOUR WHATSAPP! ⏳\n \n DEVELOPER: 𝑰𝑩𝑹𝑨𝑯𝑰𝑴 𝑨𝑫𝑨𝑴𝑺\n🔰============================🔰");
     global.showUpdate = true;
   }
 }
