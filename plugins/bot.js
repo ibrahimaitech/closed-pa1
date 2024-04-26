@@ -261,7 +261,7 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `BLACK PANTHER MD\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\nPANTHER ᴍᴅ`;
+          const captionText = `🐯𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑨𝑳𝑰𝑽𝑬 𝑴𝑬𝑺𝑺𝑨𝑮𝑬\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\n𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -283,7 +283,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `BLACK PANTHER MD\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nPANTHER ᴍᴅ`;
+          const captionText = `BLACK PANTHER MD\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -305,7 +305,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `BLACK PANTHER MD\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nPANTHER ᴍᴅ`;
+          const captionText = `BLACK PANTHER MD\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\n𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
