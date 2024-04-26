@@ -283,13 +283,13 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `BLACK PANTHER MD\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫`;
+          const captionText = 🐯𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑨𝑳𝑰𝑽𝑬 𝑴𝑬𝑺𝑺𝑨𝑮𝑬\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/4c2a2209b02ba65f47d08.jpg",
+            "https://telegra.ph/file/47b18c0099aae5d2229b9.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -305,7 +305,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `BLACK PANTHER MD\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\n𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫`;
+          const captionText = 🐯𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑨𝑳𝑰𝑽𝑬 𝑴𝑬𝑺𝑺𝑨𝑮𝑬\n\n*𝑸𝒖𝒐𝒕𝒆 𝒐𝒇 𝒕𝒉𝒆 𝒅𝒂𝒚:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\n𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
