@@ -117,7 +117,7 @@ try {
   });
 } catch (_0x2568c0) {
   if (!global.showUpdate) {
-    log("\n🔰===========================🔰 \n  \n  NEW UPDATE AVAILABLE\n  =>  Update Your Bot As Soon As Possible! 🚫\n \n Regards: IBRAHIMADAMS\n🔰============================🔰");
+    log("\n🔰===========================🔰 \n  \n  NEW UPDATE AVAILABLE\n  =>  Update Your Bot As Soon As Possible! ⏳\n \n Regards: IBRAHIMADAMS\n🔰============================🔰");
     global.showUpdate = true;
   }
 }
@@ -243,8 +243,8 @@ smd(
       const start = new Date().getTime();
       const designs = [
         async () => {
-          const imageBuffer = await axios.get(
-            "https://i.imgur.com/z20pSwu.jpeg",
+          const videoBuffer = await axios.get(
+            "https://telegra.ph/file/3c7349a0af273044dc23c.mp4",
             {
               responseType: "arraybuffer",
             }
@@ -261,7 +261,7 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `Panther ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `BLACK PANTHER MD\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\nPANTHER ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -283,13 +283,13 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `Panther ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `Panther ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nPANTHER ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
-          const imageBuffer = await axios.get(
-            "https://i.imgur.com/OQOH4Gn.jpeg",
+          const videoBuffer = await axios.get(
+            "https://telegra.ph/file/3c7349a0af273044dc23c.mp4",
             {
               responseType: "arraybuffer",
             }
@@ -305,7 +305,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `Panther ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `Panther ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nPANTHER ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
