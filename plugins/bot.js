@@ -243,8 +243,8 @@ smd(
       const start = new Date().getTime();
       const designs = [
         async () => {
-          const videoBuffer = await axios.get(
-            "https://telegra.ph/file/3c7349a0af273044dc23c.mp4",
+          const imageBuffer = await axios.get(
+            "https://telegra.ph/file/4c2a2209b02ba65f47d08.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -267,7 +267,7 @@ smd(
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/lIo3cM2.jpeg",
+            "https://telegra.ph/file/4c2a2209b02ba65f47d08.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -283,13 +283,13 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `Panther ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nPANTHER ᴍᴅ`;
+          const captionText = `BLACK PANTHER MD\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nPANTHER ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
-          const videoBuffer = await axios.get(
-            "https://telegra.ph/file/3c7349a0af273044dc23c.mp4",
+          const imageBuffer = await axios.get(
+            "https://telegra.ph/file/4c2a2209b02ba65f47d08.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -305,7 +305,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `Panther ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nPANTHER ᴍᴅ`;
+          const captionText = `BLACK PANTHER MD\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nPANTHER ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
